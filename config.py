@@ -1,12 +1,12 @@
 ACTIONS_MAPPING_CONFIG = {
     "default": {
-        "COMPLETE_ACTION": "InformationCommand",
-        "FAILED_ACTION": "ErrorCommand",
-        "OUT_OF_CONTEXT_ACTION": "NoResultCommand"
+        "COMPLETE_ACTION": "goodbye",
+        "FAILED_ACTION": "deny",
+        "OUT_OF_CONTEXT_ACTION": "bot_challenge"
     },
-    "weather": {
-        "COMPLETE_ACTION": "InformationCommand",
-        "FAILED_ACTION": "ErrorCommand",
-        "OUT_OF_CONTEXT_ACTION": "NoResultCommand"
+    "default_bot": {
+        "COMPLETE_ACTION": "goodbye",
+        "FAILED_ACTION": "deny",
+        "OUT_OF_CONTEXT_ACTION": "bot_challenge"
     }
 }
